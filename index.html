@@ -783,6 +783,8 @@ h1 em{font-style:italic;color:var(--gold)}
       <button class="day-nav-chip" data-day="day13" onclick="selectDay('day13')">Day 13<span class="day-nav-chip-sub">Lire</span></button>
       <button class="day-nav-chip" data-day="day14" onclick="selectDay('day14')">Day 14<span class="day-nav-chip-sub">Dire</span></button>
       <button class="day-nav-chip" data-day="day15" onclick="selectDay('day15')">Day 15<span class="day-nav-chip-sub">Articles C.</span></button>
+      <button class="day-nav-chip" data-day="day16" onclick="selectDay('day16')">Day 16<span class="day-nav-chip-sub">Aller/Venir</span></button>
+      <button class="day-nav-chip" data-day="day17" onclick="selectDay('day17')">Day 17<span class="day-nav-chip-sub">Quel/Quelle</span></button>
     </div>
 
     <div class="day-nav-group-label">⭐ Special</div>
@@ -792,6 +794,8 @@ h1 em{font-style:italic;color:var(--gold)}
       <button class="day-nav-chip day-nav-special" data-day="reviewAll" onclick="selectDay('reviewAll')">🔁<span class="day-nav-chip-sub">Review All</span></button>
       <button class="day-nav-chip day-nav-special" data-day="proLab"    onclick="selectDay('proLab')">🔬<span class="day-nav-chip-sub">Pro Lab</span></button>
       <button class="day-nav-chip day-nav-special" data-day="pdflib" onclick="selectDay('pdflib')">📄<span class="day-nav-chip-sub">PDF Books</span></button>
+      <a class="day-nav-chip day-nav-special" href="https://murali-chalamala.github.io/rk-mutt-french-junior/model-papers/model-paper-1.html" target="_self" rel="noopener" style="text-decoration:none;color:var(--text-muted)">📝<span class="day-nav-chip-sub">Model Paper – 1</span></a>
+      <a class="day-nav-chip day-nav-special" href="https://murali-chalamala.github.io/rk-mutt-french-junior/summary/french-junior-complete-grammar" target="_self" rel="noopener" style="text-decoration:none;color:var(--text-muted)">📚<span class="day-nav-chip-sub">Phase 1 Complete</span></a>
       <button class="day-nav-chip day-nav-special" data-day="about" onclick="selectDay('about')">👨‍🎓<span class="day-nav-chip-sub">About</span></button>
     </div>
 
@@ -1699,6 +1703,590 @@ h1 em{font-style:italic;color:var(--gold)}
 
 </div>
 <!-- ══════════════════ END ABOUT ══════════════════ -->
+
+<!-- ══════════════════ DAY 16 ══════════════════ -->
+<div class="day-content" id="day16-content">
+
+<div class="d2-section-nav">
+  <button class="d2-nav-btn active" data-day="day16" data-sec="d16conj"   onclick="switchDayN('d16','conj')">🔤 Conjugation</button>
+  <button class="d2-nav-btn"        data-day="day16" data-sec="d16tuvous" onclick="switchDayN('d16','tuvous')">👤 Tu ou Vous</button>
+  <button class="d2-nav-btn"        data-day="day16" data-sec="d16prep"   onclick="switchDayN('d16','prep')">📍 Prépositions</button>
+  <button class="d2-nav-btn"        data-day="day16" data-sec="d16conv"   onclick="switchDayN('d16','conv')">💬 Conversations</button>
+  <button class="d2-nav-btn"        data-day="day16" data-sec="d16vocab"  onclick="switchDayN('d16','vocab')">📚 Vocabulaire</button>
+  <button class="d2-nav-btn"        data-day="day16" data-sec="d16quiz"   onclick="switchDayN('d16','quiz')">🎮 Quiz</button>
+</div>
+
+<!-- ── CONJUGATION ── -->
+<div class="d2-section active" id="d16-conj">
+  <div class="d2-section-title">🔤 Conjugation — Aller & Venir</div>
+
+  <div class="grammar-box" style="margin-bottom:16px">
+    <div class="grammar-title">📝 Grammar Note</div>
+    <p style="font-size:13px;color:var(--cream);line-height:1.7">
+      <b style="color:var(--gold)">ALLER</b> (to go) uses <b style="color:var(--gold)">À</b> → <i>Je vais AU cinéma.</i><br>
+      <b style="color:var(--gold)">VENIR</b> (to come) uses <b style="color:var(--gold)">DE</b> → <i>Je viens DU cinéma.</i><br>
+      <span style="color:var(--text-muted);font-size:12px">Memory: A = Away = Aller = Go · V = Visit back = Venir = Come</span>
+    </p>
+  </div>
+
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
+    <div class="wb-verb-block">
+      <div class="wb-verb-title">🚶 Aller — To Go</div>
+      <table class="conj-table">
+        <thead><tr><th>Pronoun</th><th>Form</th><th>Sound</th><th>Full Sentence</th></tr></thead>
+        <tbody>
+          <tr><td class="conj-pronoun">Je</td><td class="wb-fr">vais</td><td class="pron-hint">vay</td><td style="font-size:11px;color:var(--text-muted)">Zhuh vay</td></tr>
+          <tr><td class="conj-pronoun">Tu</td><td class="wb-fr">vas</td><td class="pron-hint">vah</td><td style="font-size:11px;color:var(--text-muted)">Too vah</td></tr>
+          <tr><td class="conj-pronoun">Il/Elle</td><td class="wb-fr">va</td><td class="pron-hint">vah</td><td style="font-size:11px;color:var(--text-muted)">Eel/El vah</td></tr>
+          <tr><td class="conj-pronoun">Nous</td><td class="wb-fr">allons</td><td class="pron-hint">ah-lon</td><td style="font-size:11px;color:var(--text-muted)">Noo zah-lon</td></tr>
+          <tr><td class="conj-pronoun">Vous</td><td class="wb-fr">allez</td><td class="pron-hint">ah-lay</td><td style="font-size:11px;color:var(--text-muted)">Voo zah-lay</td></tr>
+          <tr><td class="conj-pronoun">Ils/Elles</td><td class="wb-fr">vont</td><td class="pron-hint">von</td><td style="font-size:11px;color:var(--text-muted)">Eel/El von</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="wb-verb-block">
+      <div class="wb-verb-title">🏠 Venir — To Come</div>
+      <table class="conj-table">
+        <thead><tr><th>Pronoun</th><th>Form</th><th>Sound</th><th>Full Sentence</th></tr></thead>
+        <tbody>
+          <tr><td class="conj-pronoun">Je</td><td class="wb-fr">viens</td><td class="pron-hint">vee-an</td><td style="font-size:11px;color:var(--text-muted)">Zhuh vee-an</td></tr>
+          <tr><td class="conj-pronoun">Tu</td><td class="wb-fr">viens</td><td class="pron-hint">vee-an</td><td style="font-size:11px;color:var(--text-muted)">Too vee-an</td></tr>
+          <tr><td class="conj-pronoun">Il/Elle</td><td class="wb-fr">vient</td><td class="pron-hint">vee-an</td><td style="font-size:11px;color:var(--text-muted)">Eel/El vee-an</td></tr>
+          <tr><td class="conj-pronoun">Nous</td><td class="wb-fr">venons</td><td class="pron-hint">vuh-non</td><td style="font-size:11px;color:var(--text-muted)">Noo vuh-non</td></tr>
+          <tr><td class="conj-pronoun">Vous</td><td class="wb-fr">venez</td><td class="pron-hint">vuh-nay</td><td style="font-size:11px;color:var(--text-muted)">Voo vuh-nay</td></tr>
+          <tr><td class="conj-pronoun">Ils/Elles</td><td class="wb-fr">viennent</td><td class="pron-hint">vee-en</td><td style="font-size:11px;color:var(--text-muted)">Eel/El vee-en</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="d2-section-title" style="font-size:1rem;margin-top:20px">📍 Exercice 1 — Retrouvez les quatre phrases</div>
+  <div style="display:grid;gap:10px;margin-top:10px">
+    <div class="vocab-card" style="padding:12px 16px">
+      <div class="wb-fr" style="margin-bottom:4px">🇫🇷 Je vais au cinéma.</div>
+      <div style="font-size:12px;color:var(--text-muted)">Zhuh vay oh see-nay-ma &nbsp;·&nbsp; <span style="color:var(--cream)">I am going to the cinema.</span></div>
+    </div>
+    <div class="vocab-card" style="padding:12px 16px">
+      <div class="wb-fr" style="margin-bottom:4px">🇫🇷 Tu vas à l'école.</div>
+      <div style="font-size:12px;color:var(--text-muted)">Too vah ah lay-kol &nbsp;·&nbsp; <span style="color:var(--cream)">You go to school.</span></div>
+    </div>
+    <div class="vocab-card" style="padding:12px 16px">
+      <div class="wb-fr" style="margin-bottom:4px">🇫🇷 Elle vient du cinéma.</div>
+      <div style="font-size:12px;color:var(--text-muted)">Ell vee-an du see-nay-ma &nbsp;·&nbsp; <span style="color:var(--cream)">She comes from the cinema.</span></div>
+    </div>
+    <div class="vocab-card" style="padding:12px 16px">
+      <div class="wb-fr" style="margin-bottom:4px">🇫🇷 Vous venez de l'exposition.</div>
+      <div style="font-size:12px;color:var(--text-muted)">Voo vuh-nay duh lex-po-zee-syon &nbsp;·&nbsp; <span style="color:var(--cream)">You come from the exhibition.</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- ── TU OU VOUS ── -->
+<div class="d2-section" id="d16-tuvous">
+  <div class="d2-section-title">👤 Tu ou Vous ?</div>
+
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:20px">
+    <div class="grammar-box">
+      <div class="grammar-title" style="color:#7effa0">✅ TU — Informal</div>
+      <p style="font-size:13px;color:var(--cream);line-height:1.9">
+        Friend · Brother · Sister<br>Child · Family<br>
+        <span style="color:var(--text-muted);font-size:11px">One person you know well</span>
+      </p>
+    </div>
+    <div class="grammar-box">
+      <div class="grammar-title" style="color:var(--gold)">🎩 VOUS — Formal / Plural</div>
+      <p style="font-size:13px;color:var(--cream);line-height:1.9">
+        Teacher · Madam · Sir<br>Unknown person · Many people<br>
+        <span style="color:var(--text-muted);font-size:11px">Respect or more than one person</span>
+      </p>
+    </div>
+  </div>
+
+  <div class="memory-box" style="margin-bottom:20px">
+    <div class="memory-title">🧠 Memory Trick</div>
+    <p style="color:var(--cream);font-size:13px">
+      <b style="color:var(--gold)">TU</b> = One person you know → informal<br>
+      <b style="color:var(--gold)">VOUS</b> = Respect OR Many persons → formal/plural
+    </p>
+  </div>
+
+  <div class="d2-section-title" style="font-size:1rem;margin-bottom:10px">📝 Exercice 2 — Fill in Tu or Vous</div>
+  <div style="display:flex;flex-direction:column;gap:10px">
+    <div class="vocab-card" style="padding:12px 16px">
+      <div style="font-size:13px;color:var(--cream)">Lily et Sami, <b style="color:var(--gold)">vous</b> allez au Luxembourg ?</div>
+      <div style="font-size:11px;color:var(--text-muted);margin-top:2px"><span class="pron-hint">Lee-lee ay Sa-mee, voo za-lay oh Luk-som-boor?</span></div>
+      <div style="font-size:11px;color:var(--text-muted);margin-top:2px">Lily and Sami, are you going to Luxembourg? — <i>Two people → VOUS</i></div>
+    </div>
+    <div class="vocab-card" style="padding:12px 16px">
+      <div style="font-size:13px;color:var(--cream)">Claire, <b style="color:var(--gold)">tu</b> viens du laboratoire ?</div>
+      <div style="font-size:11px;color:var(--text-muted);margin-top:2px"><span class="pron-hint">Klair, too vee-an du la-bo-ra-twar?</span></div>
+      <div style="font-size:11px;color:var(--text-muted);margin-top:2px">Claire, are you coming from the laboratory? — <i>Friend → TU</i></div>
+    </div>
+    <div class="vocab-card" style="padding:12px 16px">
+      <div style="font-size:13px;color:var(--cream)">Madame, <b style="color:var(--gold)">vous</b> cherchez la bibliothèque ?</div>
+      <div style="font-size:11px;color:var(--text-muted);margin-top:2px"><span class="pron-hint">Ma-dam, voo sher-shay la bee-blee-oh-tek?</span></div>
+      <div style="font-size:11px;color:var(--text-muted);margin-top:2px">Madam, are you looking for the library? — <i>Respect → VOUS</i></div>
+    </div>
+  </div>
+
+  <div class="d2-section-title" style="font-size:1rem;margin-top:20px;margin-bottom:10px">📝 Exercice 3 — Choose Tu or Vous</div>
+  <table class="vocab-table" style="margin-top:8px">
+    <thead><tr><th>Situation</th><th>Answer</th><th>Reason</th></tr></thead>
+    <tbody>
+      <tr><td>Aux gens dans la rue</td><td><b style="color:var(--gold)">Vous</b></td><td>Unknown people</td></tr>
+      <tr><td>Entre amis</td><td><b style="color:#7effa0">Tu</b></td><td>Friends</td></tr>
+      <tr><td>En cours au professeur</td><td><b style="color:var(--gold)">Vous</b></td><td>Teacher</td></tr>
+      <tr><td>À un enfant</td><td><b style="color:#7effa0">Tu</b></td><td>Child</td></tr>
+      <tr><td>En famille</td><td><b style="color:#7effa0">Tu</b></td><td>Family</td></tr>
+      <tr><td>Dans un magasin</td><td><b style="color:var(--gold)">Vous</b></td><td>Shopkeeper (Respect)</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- ── PRÉPOSITIONS ── -->
+<div class="d2-section" id="d16-prep">
+  <div class="d2-section-title">📍 Les Prépositions — À & De</div>
+
+  <div class="grammar-box" style="margin-bottom:16px">
+    <div class="grammar-title">🧠 Golden Rule</div>
+    <p style="font-size:13px;color:var(--cream);line-height:1.8">
+      <b style="color:var(--gold)">ALLER + À</b> → Going TO a place<br>
+      <b style="color:var(--gold)">VENIR + DE</b> → Coming FROM a place<br>
+      <span style="font-size:12px;color:var(--text-muted)">GO → À &nbsp;·&nbsp; COME → DE</span>
+    </p>
+  </div>
+
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px">
+    <div class="grammar-box">
+      <div class="grammar-title">À group — ALLER</div>
+      <table class="vocab-table" style="font-size:12px">
+        <thead><tr><th>Rule</th><th>Form</th><th>Example</th></tr></thead>
+        <tbody>
+          <tr><td>City</td><td><b>à</b></td><td>Je vais à Paris.</td></tr>
+          <tr><td>Feminine place</td><td><b>à la</b></td><td>à la cafétéria</td></tr>
+          <tr><td>Vowel/silent h</td><td><b>à l'</b></td><td>à l'opéra</td></tr>
+          <tr><td>à + le = </td><td><b style="color:var(--gold)">au</b></td><td>au cinéma</td></tr>
+          <tr><td>à + les = </td><td><b style="color:var(--gold)">aux</b></td><td>aux États-Unis</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="grammar-box">
+      <div class="grammar-title">De group — VENIR</div>
+      <table class="vocab-table" style="font-size:12px">
+        <thead><tr><th>Rule</th><th>Form</th><th>Example</th></tr></thead>
+        <tbody>
+          <tr><td>City</td><td><b>de</b></td><td>Je viens de Madrid.</td></tr>
+          <tr><td>Feminine place</td><td><b>de la</b></td><td>de la gare</td></tr>
+          <tr><td>Vowel/silent h</td><td><b>de l'</b></td><td>de l'hôtel</td></tr>
+          <tr><td>de + le = </td><td><b style="color:var(--gold)">du</b></td><td>du cinéma</td></tr>
+          <tr><td>de + les = </td><td><b style="color:var(--gold)">des</b></td><td>des États-Unis</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="d2-section-title" style="font-size:1rem;margin-bottom:10px">🔗 Exercice 4 — Reliez (Match)</div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">
+    <div>
+      <div style="font-size:12px;font-weight:700;color:var(--gold);margin-bottom:8px">Je vais…</div>
+      <div class="vocab-card" style="padding:10px 14px;margin-bottom:6px"><div class="wb-fr" style="font-size:13px">à la bibliothèque</div><div style="font-size:11px;color:var(--text-muted)">Zhuh vay ah la bee-blee-oh-tek · to the library</div></div>
+      <div class="vocab-card" style="padding:10px 14px;margin-bottom:6px"><div class="wb-fr" style="font-size:13px">au cinéma</div><div style="font-size:11px;color:var(--text-muted)">Zhuh vay oh see-nay-ma · to the cinema</div></div>
+      <div class="vocab-card" style="padding:10px 14px;margin-bottom:6px"><div class="wb-fr" style="font-size:13px">à Tokyo</div><div style="font-size:11px;color:var(--text-muted)">Zhuh vay ah Tokyo · to Tokyo</div></div>
+      <div class="vocab-card" style="padding:10px 14px"><div class="wb-fr" style="font-size:13px">à l'université</div><div style="font-size:11px;color:var(--text-muted)">Zhuh vay ah loo-nee-ver-see-tay · to the university</div></div>
+    </div>
+    <div>
+      <div style="font-size:12px;font-weight:700;color:var(--gold);margin-bottom:8px">Je viens…</div>
+      <div class="vocab-card" style="padding:10px 14px;margin-bottom:6px"><div class="wb-fr" style="font-size:13px">de la bibliothèque</div><div style="font-size:11px;color:var(--text-muted)">Zhuh vee-an duh la bee-blee-oh-tek · from the library</div></div>
+      <div class="vocab-card" style="padding:10px 14px;margin-bottom:6px"><div class="wb-fr" style="font-size:13px">de l'exposition</div><div style="font-size:11px;color:var(--text-muted)">Zhuh vee-an duh lex-po-zee-syon · from the exhibition</div></div>
+      <div class="vocab-card" style="padding:10px 14px;margin-bottom:6px"><div class="wb-fr" style="font-size:13px">du cinéma</div><div style="font-size:11px;color:var(--text-muted)">Zhuh vee-an du see-nay-ma · from the cinema</div></div>
+      <div class="vocab-card" style="padding:10px 14px"><div class="wb-fr" style="font-size:13px">de Rome</div><div style="font-size:11px;color:var(--text-muted)">Zhuh vee-an duh Rome · from Rome</div></div>
+    </div>
+  </div>
+
+  <div class="d2-section-title" style="font-size:1rem;margin-top:20px;margin-bottom:10px">❓ Où ? & D'où ?</div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
+    <div class="grammar-box">
+      <div class="grammar-title">📍 Où ? — Where?</div>
+      <p style="font-size:13px;color:var(--cream)">Used with <b>ALLER</b><br>
+        <span class="pron-hint">oo</span><br><br>
+        Tu vas <b>où</b> ?<br>
+        <span style="font-size:12px;color:var(--text-muted)">Where are you going?</span><br><br>
+        Je vais à l'université.<br>
+        <span style="font-size:12px;color:var(--text-muted)">I am going to the university.</span>
+      </p>
+    </div>
+    <div class="grammar-box">
+      <div class="grammar-title">📍 D'où ? — From Where?</div>
+      <p style="font-size:13px;color:var(--cream)">Used with <b>VENIR</b><br>
+        <span class="pron-hint">doo</span><br><br>
+        Tu viens <b>d'où</b> ?<br>
+        <span style="font-size:12px;color:var(--text-muted)">Where do you come from?</span><br><br>
+        Je viens de la cafétéria.<br>
+        <span style="font-size:12px;color:var(--text-muted)">I come from the cafeteria.</span>
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- ── CONVERSATIONS ── -->
+<div class="d2-section" id="d16-conv">
+  <div class="d2-section-title">💬 Conversations</div>
+
+  <div class="conv-card" style="margin-bottom:16px">
+    <div class="conv-title">💬 Conversation 1 — Max & Zoé</div>
+    <div class="conv-line"><span class="conv-speaker">👨 Max</span>
+      <div><div class="conv-fr">Bonjour. Je cherche Noriko. Elle est là ?</div>
+      <div class="conv-pron">Bon-zhoor | Zhuh Sher-sh No-ree-ko | El Ay Lah?</div>
+      <div class="conv-en">Hello. I am looking for Noriko. Is she here?</div></div>
+    </div>
+    <div class="conv-line"><span class="conv-speaker">👩 Zoé</span>
+      <div><div class="conv-fr">Non. Elle est avec Tom.</div>
+      <div class="conv-pron">Non | El Ay Ah-vek Tom</div>
+      <div class="conv-en">No. She is with Tom.</div></div>
+    </div>
+    <div class="conv-line"><span class="conv-speaker">👨 Max</span>
+      <div><div class="conv-fr">Quoi !</div>
+      <div class="conv-pron">Kwa!</div>
+      <div class="conv-en">What!</div></div>
+    </div>
+    <div class="conv-line"><span class="conv-speaker">👩 Zoé</span>
+      <div><div class="conv-fr">Euh... oui. Ils déjeunent à la cafétéria.</div>
+      <div class="conv-pron">Uh... Wee | Eel Day-zhuhn Ah La Ka-fay-tay-ria</div>
+      <div class="conv-en">Uh... yes. They are having lunch in the cafeteria.</div></div>
+    </div>
+    <div class="conv-line"><span class="conv-speaker">👨 Max</span>
+      <div><div class="conv-fr">Ah bon !</div>
+      <div class="conv-pron">Ah Bon!</div>
+      <div class="conv-en">Oh, I see!</div></div>
+    </div>
+  </div>
+
+  <div class="conv-card" style="margin-bottom:16px">
+    <div class="conv-title">💬 Conversation 2 — Lily & Sami</div>
+    <div class="conv-line"><span class="conv-speaker">👩 Lily</span>
+      <div><div class="conv-fr">Salut Sami. Je vais au cinéma. Tu viens avec moi ?</div>
+      <div class="conv-pron">Sa-loo Sa-mee | Zhuh Vay Oh See-nay-ma | Too Vee-an Ah-vek Mwa?</div>
+      <div class="conv-en">Hi Sami. I am going to the cinema. Will you come with me?</div></div>
+    </div>
+    <div class="conv-line"><span class="conv-speaker">👨 Sami</span>
+      <div><div class="conv-fr">Non merci. Je vais au Luxembourg. Il y a l'expo de photos d'Arthus-Bertrand. Elle est gratuite aujourd'hui.</div>
+      <div class="conv-pron">Non Mer-see | Zhuh Vay Oh Luk-som-boor | Eel Ya Lex-po Duh Fo-to | El Ay Gra-tweet Oh-zhoor-dwee</div>
+      <div class="conv-en">No, thank you. I am going to Luxembourg. There is a photo exhibition. It is free today.</div></div>
+    </div>
+    <div class="conv-line"><span class="conv-speaker">👩 Lily</span>
+      <div><div class="conv-fr">Gratuite ! Je viens avec toi.</div>
+      <div class="conv-pron">Gra-tweet! Zhuh Vee-an Ah-vek Twa</div>
+      <div class="conv-en">Free! I will come with you.</div></div>
+    </div>
+  </div>
+
+  <div class="conv-card">
+    <div class="conv-title">💬 Conversation 3 — Claire & Lucie</div>
+    <div class="conv-line"><span class="conv-speaker">👩 Claire</span>
+      <div><div class="conv-fr">Salut. Tu viens de la bibliothèque ?</div>
+      <div class="conv-pron">Sa-loo | Too Vee-an Duh La Bee-blee-oh-tek?</div>
+      <div class="conv-en">Hi. Are you coming from the library?</div></div>
+    </div>
+    <div class="conv-line"><span class="conv-speaker">👩 Lucie</span>
+      <div><div class="conv-fr">Oui. Il y a l'examen de mathématiques demain. Et toi, tu viens d'où ?</div>
+      <div class="conv-pron">Wee | Eel Ya Leg-za-man Duh Math-ay-ma-teek Duh-man | Ay Twa | Too Vee-an Doo?</div>
+      <div class="conv-en">Yes. There is a maths exam tomorrow. And you, where are you coming from?</div></div>
+    </div>
+    <div class="conv-line"><span class="conv-speaker">👩 Claire</span>
+      <div><div class="conv-fr">Je viens du labo. C'est fatigant.</div>
+      <div class="conv-pron">Zhuh Vee-an Dew Lah-bo | Say Fa-tee-gan</div>
+      <div class="conv-en">I come from the laboratory. It is tiring.</div></div>
+    </div>
+    <div class="conv-line"><span class="conv-speaker">👩 Lucie</span>
+      <div><div class="conv-fr">Alors, bon courage.</div>
+      <div class="conv-pron">Ah-lor | Bon Koo-raazh</div>
+      <div class="conv-en">Then, take courage.</div></div>
+    </div>
+    <div class="conv-line"><span class="conv-speaker">👩 Claire</span>
+      <div><div class="conv-fr">Merci. Et toi, bonne chance pour l'examen.</div>
+      <div class="conv-pron">Mer-see | Ay Twa | Bon Shans Poor Leg-za-man</div>
+      <div class="conv-en">Thank you. And good luck with your exam.</div></div>
+    </div>
+  </div>
+
+  <div class="grammar-box" style="margin-top:16px">
+    <div class="grammar-title">🎯 Encouragement Expressions</div>
+    <p style="font-size:13px;color:var(--cream);line-height:1.9">
+      <b style="color:var(--gold)">Bonne chance !</b> <span class="pron-hint">Bon Shans</span> — Good luck! (before exam/interview)<br>
+      <b style="color:var(--gold)">Bon courage !</b> <span class="pron-hint">Bon Koo-raazh</span> — Stay strong! / Keep going! (encouragement while working)
+    </p>
+  </div>
+</div>
+
+<!-- ── VOCABULAIRE ── -->
+<div class="d2-section" id="d16-vocab">
+  <div class="d2-section-title">📚 Vocabulaire — Leçon 5</div>
+  <table class="vocab-table">
+    <thead><tr><th>French</th><th>Pronunciation</th><th>English</th></tr></thead>
+    <tbody>
+      <tr><td class="wb-fr">fatigant(e)</td><td class="pron-hint">fa-tee-gan</td><td>tiring / exhausting</td></tr>
+      <tr><td class="wb-fr">gratuit(e)</td><td class="pron-hint">gra-twee</td><td>free (no cost)</td></tr>
+      <tr><td class="wb-fr">aller</td><td class="pron-hint">ah-lay</td><td>to go</td></tr>
+      <tr><td class="wb-fr">venir</td><td class="pron-hint">vuh-neer</td><td>to come</td></tr>
+      <tr><td class="wb-fr">chercher</td><td class="pron-hint">sher-shay</td><td>to search / look for</td></tr>
+      <tr><td class="wb-fr">déjeuner</td><td class="pron-hint">day-zhuh-nay</td><td>to have lunch</td></tr>
+      <tr><td class="wb-fr">alors</td><td class="pron-hint">ah-lor</td><td>so / then</td></tr>
+      <tr><td class="wb-fr">aujourd'hui</td><td class="pron-hint">oh-zhoor-dwee</td><td>today</td></tr>
+      <tr><td class="wb-fr">avec</td><td class="pron-hint">ah-vek</td><td>with</td></tr>
+      <tr><td class="wb-fr">demain</td><td class="pron-hint">duh-man</td><td>tomorrow</td></tr>
+      <tr><td class="wb-fr">où ?</td><td class="pron-hint">oo</td><td>where?</td></tr>
+      <tr><td class="wb-fr">d'où ?</td><td class="pron-hint">doo</td><td>from where?</td></tr>
+      <tr><td class="wb-fr">quoi !</td><td class="pron-hint">kwa</td><td>what!</td></tr>
+      <tr><td class="wb-fr">Bonne chance !</td><td class="pron-hint">bon shans</td><td>Good luck!</td></tr>
+      <tr><td class="wb-fr">Bon courage !</td><td class="pron-hint">bon koo-raazh</td><td>Stay strong!</td></tr>
+      <tr><td class="wb-fr">C'est gratuit.</td><td class="pron-hint">say gra-twee</td><td>It is free.</td></tr>
+      <tr><td class="wb-fr">C'est fatigant.</td><td class="pron-hint">say fa-tee-gan</td><td>It is tiring.</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- ── QUIZ ── -->
+<div class="d2-section" id="d16-quiz">
+  <div class="d2-section-title">🎮 Day 16 Quiz</div>
+  <div id="d16-quiz-area">
+    <div class="btn-row"><button class="action-btn" onclick="startGenQuiz('day16')">▶ Start Quiz</button></div>
+  </div>
+</div>
+
+</div>
+<!-- ══════════════════ END DAY 16 ══════════════════ -->
+
+<!-- ══════════════════ DAY 17 ══════════════════ -->
+<div class="day-content" id="day17-content">
+
+<div class="d2-section-nav">
+  <button class="d2-nav-btn active" data-day="day17" data-sec="d17quel"   onclick="switchDayN('d17','quel')">❓ Quel/Quelle</button>
+  <button class="d2-nav-btn"        data-day="day17" data-sec="d17ex"     onclick="switchDayN('d17','ex')">✏️ Exercice 4</button>
+  <button class="d2-nav-btn"        data-day="day17" data-sec="d17vocab"  onclick="switchDayN('d17','vocab')">📚 Vocabulaire</button>
+  <button class="d2-nav-btn"        data-day="day17" data-sec="d17conv"   onclick="switchDayN('d17','conv')">💬 Conversation</button>
+  <button class="d2-nav-btn"        data-day="day17" data-sec="d17quiz"   onclick="switchDayN('d17','quiz')">🎮 Quiz</button>
+</div>
+
+<!-- ── QUEL/QUELLE ── -->
+<div class="d2-section active" id="d17-quel">
+  <div class="d2-section-title">❓ Les adjectifs interrogatifs — Quel / Quelle</div>
+
+  <div class="grammar-box" style="margin-bottom:16px">
+    <div class="grammar-title">📖 What are Interrogative Adjectives?</div>
+    <p style="font-size:13px;color:var(--cream);line-height:1.7">
+      Used to ask <b style="color:var(--gold)">"Which?"</b> or <b style="color:var(--gold)">"What?"</b> before a noun.<br>
+      They change based on <b>gender</b> (Masculine/Feminine) and <b>number</b> (Singular/Plural).<br>
+      <span style="font-size:12px;color:var(--text-muted)">Note: Quel/Quels both sound like "Kel" · Quelle/Quelles both sound like "Kell"</span>
+    </p>
+  </div>
+
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:20px">
+    <div class="wb-verb-block">
+      <div class="wb-verb-title" style="color:#a0c4ff">👦 Masculine Singular — <span class="pron-hint">Kel</span></div>
+      <div style="font-size:1.8rem;font-family:'Playfair Display',serif;font-weight:900;color:var(--gold);margin:8px 0">Quel</div>
+      <p style="font-size:12px;color:var(--text-muted)">Quel livre ? <span class="pron-hint">kel leevr</span> — Which book?<br>Quel garçon ? <span class="pron-hint">kel gar-son</span> — Which boy?<br>Quel étudiant ? <span class="pron-hint">kel ay-tood-yan</span> — Which student?</p>
+    </div>
+    <div class="wb-verb-block">
+      <div class="wb-verb-title" style="color:#a0c4ff">👦👦 Masculine Plural — <span class="pron-hint">Kel</span></div>
+      <div style="font-size:1.8rem;font-family:'Playfair Display',serif;font-weight:900;color:var(--gold);margin:8px 0">Quels</div>
+      <p style="font-size:12px;color:var(--text-muted)">Quels livres ? <span class="pron-hint">kel leevr</span> — Which books?<br>Quels garçons ? <span class="pron-hint">kel gar-son</span> — Which boys?<br>Quels étudiants ? <span class="pron-hint">kel ay-tood-yan</span> — Which students?</p>
+    </div>
+    <div class="wb-verb-block">
+      <div class="wb-verb-title" style="color:#ffb3c6">👧 Feminine Singular — <span class="pron-hint">Kell</span></div>
+      <div style="font-size:1.8rem;font-family:'Playfair Display',serif;font-weight:900;color:var(--gold);margin:8px 0">Quelle</div>
+      <p style="font-size:12px;color:var(--text-muted)">Quelle voiture ? <span class="pron-hint">kell vwa-toor</span> — Which car?<br>Quelle ville ? <span class="pron-hint">kell veel</span> — Which city?<br>Quelle école ? <span class="pron-hint">kell ay-kol</span> — Which school?</p>
+    </div>
+    <div class="wb-verb-block">
+      <div class="wb-verb-title" style="color:#ffb3c6">👧👧 Feminine Plural — <span class="pron-hint">Kell</span></div>
+      <div style="font-size:1.8rem;font-family:'Playfair Display',serif;font-weight:900;color:var(--gold);margin:8px 0">Quelles</div>
+      <p style="font-size:12px;color:var(--text-muted)">Quelles voitures ? <span class="pron-hint">kell vwa-toor</span> — Which cars?<br>Quelles villes ? <span class="pron-hint">kell veel</span> — Which cities?<br>Quelles écoles ? <span class="pron-hint">kell ay-kol</span> — Which schools?</p>
+    </div>
+  </div>
+
+  <div class="memory-box">
+    <div class="memory-title">🧠 Memory Trick</div>
+    <table style="width:100%;font-size:13px;color:var(--cream)">
+      <thead><tr><th style="color:var(--gold);padding:6px">—</th><th style="color:var(--gold)">ONE 👤</th><th style="color:var(--gold)">MANY 👥</th></tr></thead>
+      <tbody>
+        <tr><td style="padding:6px;color:var(--text-muted)">👦 Masculine</td><td><b>Quel</b></td><td><b>Quels</b></td></tr>
+        <tr><td style="padding:6px;color:var(--text-muted)">👧 Feminine</td><td><b>Quelle</b></td><td><b>Quelles</b></td></tr>
+      </tbody>
+    </table>
+    <p style="font-size:12px;color:var(--text-muted);margin-top:10px">
+      Quel → Boy + One 👦 &nbsp;·&nbsp; Quelle → Girl + One 👧<br>
+      Quels → Boys + Many 👦👦 &nbsp;·&nbsp; Quelles → Girls + Many 👧👧
+    </p>
+  </div>
+
+  <div class="d2-section-title" style="font-size:1rem;margin-top:20px;margin-bottom:10px">📝 Examples with Answers</div>
+  <div style="display:flex;flex-direction:column;gap:8px">
+    <div class="vocab-card" style="padding:10px 14px"><div style="font-size:13px;color:var(--cream)"><b style="color:var(--gold)">Quel</b> âge avez-vous ? — <span class="pron-hint">Kel Aazh Ah-vay Voo</span></div><div style="font-size:11px;color:var(--text-muted)">What is your age? → J'ai 40 ans.</div></div>
+    <div class="vocab-card" style="padding:10px 14px"><div style="font-size:13px;color:var(--cream)"><b style="color:var(--gold)">Quelle</b> couleur vous aimez ? — <span class="pron-hint">Kell Koo-lur Voo Zay-may</span></div><div style="font-size:11px;color:var(--text-muted)">Which colour do you like? → La couleur rouge.</div></div>
+    <div class="vocab-card" style="padding:10px 14px"><div style="font-size:13px;color:var(--cream)"><b style="color:var(--gold)">Quels</b> livres achètes-tu ? — <span class="pron-hint">Kel Leevr Ash-et Too</span></div><div style="font-size:11px;color:var(--text-muted)">Which books are you buying? → J'achète les livres de M. Abdul Kalam.</div></div>
+    <div class="vocab-card" style="padding:10px 14px"><div style="font-size:13px;color:var(--cream)"><b style="color:var(--gold)">Quelles</b> couleurs dans le drapeau indien ? — <span class="pron-hint">Kell Koo-lur Eel Ya Don</span></div><div style="font-size:11px;color:var(--text-muted)">Which colours in the Indian flag? → Orange, blanc, vert et bleu.</div></div>
+  </div>
+</div>
+
+<!-- ── EXERCICE 4 ── -->
+<div class="d2-section" id="d17-ex">
+  <div class="d2-section-title">✏️ Exercice 4 — Complétez avec Quel / Quelle / Quels / Quelles</div>
+  <div class="grammar-box" style="margin-bottom:14px">
+    <div class="grammar-title">💡 How to choose?</div>
+    <p style="font-size:12px;color:var(--cream)">Step 1: Look at the noun after the blank.<br>Step 2: Is it Masculine or Feminine? Singular or Plural?<br>Step 3: Pick the matching form!</p>
+  </div>
+  <div style="display:flex;flex-direction:column;gap:8px">
+    <div class="vocab-card" style="padding:12px 16px"><div style="font-size:13px;color:var(--cream)">1. Tu préfères <b style="color:var(--gold)">quelle</b> couleur ? <span class="pron-hint">kell</span></div><div style="font-size:11px;color:var(--text-muted)"><span class="pron-hint" style="font-size:10px">Too pray-fair kell koo-lur?</span></div><div style="font-size:11px;color:var(--text-muted)">couleur = feminine singular → Quelle</div></div>
+    <div class="vocab-card" style="padding:12px 16px"><div style="font-size:13px;color:var(--cream)">2. Tu es dans <b style="color:var(--gold)">quelle</b> classe ? <span class="pron-hint">kell</span></div><div style="font-size:11px;color:var(--text-muted)"><span class="pron-hint" style="font-size:10px">Too ay don kell klass?</span></div><div style="font-size:11px;color:var(--text-muted)">classe = feminine singular → Quelle</div></div>
+    <div class="vocab-card" style="padding:12px 16px"><div style="font-size:13px;color:var(--cream)">3. <b style="color:var(--gold)">Quel</b> bus prends-tu ? <span class="pron-hint">kel</span></div><div style="font-size:11px;color:var(--text-muted)"><span class="pron-hint" style="font-size:10px">Kel bus pron-too?</span></div><div style="font-size:11px;color:var(--text-muted)">bus = masculine singular → Quel</div></div>
+    <div class="vocab-card" style="padding:12px 16px"><div style="font-size:13px;color:var(--cream)">4. <b style="color:var(--gold)">Quelle</b> voiture achètes-tu ? <span class="pron-hint">kell</span></div><div style="font-size:11px;color:var(--text-muted)"><span class="pron-hint" style="font-size:10px">Kell vwa-toor ash-et-too?</span></div><div style="font-size:11px;color:var(--text-muted)">voiture = feminine singular → Quelle</div></div>
+    <div class="vocab-card" style="padding:12px 16px"><div style="font-size:13px;color:var(--cream)">5. <b style="color:var(--gold)">Quel</b> plat aimes-tu le plus ? <span class="pron-hint">kel</span></div><div style="font-size:11px;color:var(--text-muted)"><span class="pron-hint" style="font-size:10px">Kel pla aim-too luh ploo?</span></div><div style="font-size:11px;color:var(--text-muted)">plat = masculine singular → Quel</div></div>
+    <div class="vocab-card" style="padding:12px 16px"><div style="font-size:13px;color:var(--cream)">6. <b style="color:var(--gold)">Quels</b> sont tes cadeaux préférés ? <span class="pron-hint">kel</span></div><div style="font-size:11px;color:var(--text-muted)"><span class="pron-hint" style="font-size:10px">Kel son tay ka-do pray-fay-ray?</span></div><div style="font-size:11px;color:var(--text-muted)">cadeaux = masculine plural → Quels</div></div>
+    <div class="vocab-card" style="padding:12px 16px"><div style="font-size:13px;color:var(--cream)">7. <b style="color:var(--gold)">Quels</b> romans lis-tu ? <span class="pron-hint">kel</span></div><div style="font-size:11px;color:var(--text-muted)"><span class="pron-hint" style="font-size:10px">Kel ro-man lee-too?</span></div><div style="font-size:11px;color:var(--text-muted)">romans = masculine plural → Quels</div></div>
+    <div class="vocab-card" style="padding:12px 16px"><div style="font-size:13px;color:var(--cream)">8. <b style="color:var(--gold)">Quelle</b> est ta date de naissance ? <span class="pron-hint">kell</span></div><div style="font-size:11px;color:var(--text-muted)"><span class="pron-hint" style="font-size:10px">Kell ay ta dat duh nay-sonce?</span></div><div style="font-size:11px;color:var(--text-muted)">date = feminine singular → Quelle</div></div>
+    <div class="vocab-card" style="padding:12px 16px"><div style="font-size:13px;color:var(--cream)">9. <b style="color:var(--gold)">Quels</b> sont tes sports préférés ? <span class="pron-hint">kel</span></div><div style="font-size:11px;color:var(--text-muted)"><span class="pron-hint" style="font-size:10px">Kel son tay spor pray-fay-ray?</span></div><div style="font-size:11px;color:var(--text-muted)">sports = masculine plural → Quels</div></div>
+    <div class="vocab-card" style="padding:12px 16px"><div style="font-size:13px;color:var(--cream)">10. <b style="color:var(--gold)">Quelle</b> est la profession de ton père ? <span class="pron-hint">kell</span></div><div style="font-size:11px;color:var(--text-muted)"><span class="pron-hint" style="font-size:10px">Kell ay la pro-fay-syon duh ton pair?</span></div><div style="font-size:11px;color:var(--text-muted)">profession = feminine singular → Quelle</div></div>
+  </div>
+</div>
+
+<!-- ── VOCABULAIRE ── -->
+<div class="d2-section" id="d17-vocab">
+  <div class="d2-section-title">📚 Vocabulaire — Leçon 6</div>
+  <table class="vocab-table">
+    <thead><tr><th>French</th><th>Pronunciation</th><th>English</th></tr></thead>
+    <tbody>
+      <tr><td class="wb-fr">une année</td><td class="pron-hint">oon ah-nay</td><td>a year</td></tr>
+      <tr><td class="wb-fr">un bâtiment</td><td class="pron-hint">un bah-tee-mon</td><td>a building</td></tr>
+      <tr><td class="wb-fr">un cours</td><td class="pron-hint">un koor</td><td>a course / class</td></tr>
+      <tr><td class="wb-fr">un étage</td><td class="pron-hint">un ay-tazh</td><td>a floor / storey</td></tr>
+      <tr><td class="wb-fr">une heure</td><td class="pron-hint">oon ur</td><td>an hour / o'clock</td></tr>
+      <tr><td class="wb-fr">l'informatique</td><td class="pron-hint">lan-for-ma-teek</td><td>computer science</td></tr>
+      <tr><td class="wb-fr">une inscription</td><td class="pron-hint">oon an-skreep-syon</td><td>registration</td></tr>
+      <tr><td class="wb-fr">un jour</td><td class="pron-hint">un zhoor</td><td>a day</td></tr>
+      <tr><td class="wb-fr">une salle</td><td class="pron-hint">oon sal</td><td>a room / classroom</td></tr>
+      <tr><td class="wb-fr">ouvert / ouverte</td><td class="pron-hint">oo-ver / oo-vert</td><td>open</td></tr>
+      <tr><td class="wb-fr">premier / première</td><td class="pron-hint">pruh-mee-ay / pruh-mee-air</td><td>first</td></tr>
+      <tr><td class="wb-fr">commencer</td><td class="pron-hint">ko-mon-say</td><td>to begin / start</td></tr>
+      <tr><td class="wb-fr">entrer</td><td class="pron-hint">on-tray</td><td>to enter</td></tr>
+      <tr><td class="wb-fr">épeler</td><td class="pron-hint">ay-pay-lay</td><td>to spell</td></tr>
+      <tr><td class="wb-fr">dans</td><td class="pron-hint">don</td><td>in / inside (invariable)</td></tr>
+      <tr><td class="wb-fr">Entrez !</td><td class="pron-hint">on-tray</td><td>Come in! / Enter!</td></tr>
+      <tr><td class="wb-fr">S'il vous plaît.</td><td class="pron-hint">seel voo play</td><td>Please.</td></tr>
+      <tr><td class="wb-fr">De rien !</td><td class="pron-hint">duh ree-an</td><td>You're welcome.</td></tr>
+      <tr><td class="wb-fr">arobase @</td><td class="pron-hint">ah-ro-baz</td><td>@ symbol in email</td></tr>
+      <tr><td class="wb-fr">majuscule</td><td class="pron-hint">mah-zhoo-skool</td><td>capital letter</td></tr>
+      <tr><td class="wb-fr">minuscule</td><td class="pron-hint">mee-noo-skool</td><td>small letter</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- ── CONVERSATION ── -->
+<div class="d2-section" id="d17-conv">
+  <div class="d2-section-title">💬 Conversation — À l'inscription (Registration)</div>
+
+  <div class="conv-card" style="margin-bottom:16px">
+    <div class="conv-title">💬 Part 1 — Arriving at the Office</div>
+    <div class="conv-line"><span class="conv-speaker">👩 Susana</span>
+      <div><div class="conv-fr">(toc toc) C'est ouvert ?</div>
+      <div class="conv-pron">Took Took! Say Oo-ver?</div>
+      <div class="conv-en">Knock knock! Is it open?</div></div>
+    </div>
+    <div class="conv-line"><span class="conv-speaker">🔊 Voix</span>
+      <div><div class="conv-fr">Oui. Entrez.</div>
+      <div class="conv-pron">Wee. On-tray.</div>
+      <div class="conv-en">Yes. Come in.</div></div>
+    </div>
+    <div class="conv-line"><span class="conv-speaker">👩 Susana</span>
+      <div><div class="conv-fr">Bonjour, madame. Nous venons pour l'inscription.</div>
+      <div class="conv-pron">Bon-zhoor Ma-dam. Noo Vuh-non Poor Lan-skreep-syon.</div>
+      <div class="conv-en">Hello Madam. We have come for registration.</div></div>
+    </div>
+    <div class="conv-line"><span class="conv-speaker">📋 Secrétaire</span>
+      <div><div class="conv-fr">Oui. Pour quel cours ?</div>
+      <div class="conv-pron">Wee. Poor Kel Koor?</div>
+      <div class="conv-en">Yes. For which course?</div></div>
+    </div>
+    <div class="conv-line"><span class="conv-speaker">👨 Thomas</span>
+      <div><div class="conv-fr">Le cours d'informatique première année.</div>
+      <div class="conv-pron">Luh Koor Dan-for-ma-teek Pray-mee-air Ah-nay.</div>
+      <div class="conv-en">The first-year Computer Science course.</div></div>
+    </div>
+    <div class="conv-line"><span class="conv-speaker">📋 Secrétaire</span>
+      <div><div class="conv-fr">Oui. Quel jour ? Quelle heure ? Avec quel professeur ?</div>
+      <div class="conv-pron">Wee. Kel Zhoor? Kell Ur? Ah-vek Kel Pro-fay-sur?</div>
+      <div class="conv-en">Yes. Which day? At what time? With which teacher?</div></div>
+    </div>
+    <div class="conv-line"><span class="conv-speaker">👨 Thomas</span>
+      <div><div class="conv-fr">Le mardi à neuf heures. Avec monsieur Blanc.</div>
+      <div class="conv-pron">Luh Mar-dee Ah Nuf Ur. Ah-vek Muh-syur Blon.</div>
+      <div class="conv-en">On Tuesday at 9 o'clock. With Mr. Blanc.</div></div>
+    </div>
+    <div class="conv-line"><span class="conv-speaker">📋 Secrétaire</span>
+      <div><div class="conv-fr">Très bien. Comment vous vous appelez ?</div>
+      <div class="conv-pron">Tray Bee-an. Ko-mon Voo Voo Zah-play?</div>
+      <div class="conv-en">Very good. What is your name?</div></div>
+    </div>
+    <div class="conv-line"><span class="conv-speaker">👨 Thomas</span>
+      <div><div class="conv-fr">Thomas Hansen. H A N S E N.</div>
+      <div class="conv-pron">To-mas Han-sen. Ash Ah Enn Ess Ee Enn.</div>
+      <div class="conv-en">Thomas Hansen. Spelled H-A-N-S-E-N.</div></div>
+    </div>
+    <div class="conv-line"><span class="conv-speaker">👩 Susana</span>
+      <div><div class="conv-fr">Et moi, c'est Susana Ricci. Susana avec un S et Ricci R I C C I.</div>
+      <div class="conv-pron">Ay Mwa, Say Soo-za-na Ree-chee. Arr Ee Say Say Ee.</div>
+      <div class="conv-en">And me, I am Susana Ricci. Susana with S and Ricci R-I-C-C-I.</div></div>
+    </div>
+  </div>
+
+  <div class="conv-card">
+    <div class="conv-title">💬 Part 2 — Phone & Email</div>
+    <div class="conv-line"><span class="conv-speaker">📋 Secrétaire</span>
+      <div><div class="conv-fr">Bon. Vous avez un téléphone ? Un e-mail ?</div>
+      <div class="conv-pron">Bon. Voo Zah-vay Un Tay-lay-fon? Un Ee-mail?</div>
+      <div class="conv-en">Okay. Do you have a phone number? An email?</div></div>
+    </div>
+    <div class="conv-line"><span class="conv-speaker">👩 Susana</span>
+      <div><div class="conv-fr">Oui. 06 27 41 22 00. Et le mail : sricci@hotmail.com.</div>
+      <div class="conv-pron">Wee. Zero-six... sricci arobase hotmail point com</div>
+      <div class="conv-en">Yes. 06 27 41 22 00. And my email: sricci@hotmail.com.</div></div>
+    </div>
+    <div class="conv-line"><span class="conv-speaker">👨 Thomas</span>
+      <div><div class="conv-fr">Moi, c'est le 06 54 60 55 21. Et le mail, c'est thomas-hansen@yahoo.fr.</div>
+      <div class="conv-pron">Mwa... thomas-tiret-hansen arobase yahoo point eff-ar</div>
+      <div class="conv-en">Mine is 06 54 60 55 21. My email: thomas-hansen@yahoo.fr.</div></div>
+    </div>
+    <div class="conv-line"><span class="conv-speaker">👨 Thomas</span>
+      <div><div class="conv-fr">Madame, s'il vous plaît, le cours est dans quel bâtiment ?</div>
+      <div class="conv-pron">Ma-dam, Seel Voo Play, Luh Koor Ay Don Kel Ba-tee-mon?</div>
+      <div class="conv-en">Madam, please, in which building is the course?</div></div>
+    </div>
+    <div class="conv-line"><span class="conv-speaker">📋 Secrétaire</span>
+      <div><div class="conv-fr">Dans le bâtiment A, au premier étage. Salle 046. Les cours commencent le 12 octobre.</div>
+      <div class="conv-pron">Don Luh Ba-tee-mon Ah, Oh Pray-mee-ay Ay-tazh. Sal Zero Forty-six. Lay Koor Ko-monss Luh Dooz Ok-to-bruh.</div>
+      <div class="conv-en">In Building A, on the first floor. Room 046. Classes begin on 12 October.</div></div>
+    </div>
+    <div class="conv-line"><span class="conv-speaker">👩👨 Thomas & Susana</span>
+      <div><div class="conv-fr">Au revoir, madame. Merci beaucoup.</div>
+      <div class="conv-pron">Oh Ruh-vwar Ma-dam. Mer-see Bo-koo.</div>
+      <div class="conv-en">Goodbye, Madam. Thank you very much.</div></div>
+    </div>
+    <div class="conv-line"><span class="conv-speaker">📋 Secrétaire</span>
+      <div><div class="conv-fr">De rien. Au revoir.</div>
+      <div class="conv-pron">Duh Ree-an. Oh Ruh-vwar.</div>
+      <div class="conv-en">You're welcome. Goodbye.</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- ── QUIZ ── -->
+<div class="d2-section" id="d17-quiz">
+  <div class="d2-section-title">🎮 Day 17 Quiz</div>
+  <div id="d17-quiz-area">
+    <div class="btn-row"><button class="action-btn" onclick="startGenQuiz('day17')">▶ Start Quiz</button></div>
+  </div>
+</div>
+
+</div>
+<!-- ══════════════════ END DAY 17 ══════════════════ -->
 <!-- ══════════════════ PDF LIBRARY ══════════════════ -->
 <div class="day-content" id="pdflib-content">
 
@@ -4586,6 +5174,8 @@ const dayHeaderInfo={
   day5:{eyebrow:"🏫 RK Mutt · Jour Cinq",   title:"Day-5 &nbsp;·&nbsp; Numbers & Calendar", tagline:"Count from 0-40, days & months · 🔊 Listen & learn!"},
   day6:{eyebrow:"🏫 RK Mutt · Jour Six",    title:"Day-6 &nbsp;·&nbsp; Reflexive & More Verbs", tagline:"Se laver, s'habiller + more -RE verbs · Practice!"},
   about:{eyebrow:"🏫 RK Mutt · À Propos", title:"👨‍🎓 About This Website", tagline:"My own idea & initiative · Developed by Murali Krishna Chalamala(RK Mutt Student) · For Educational Purpose Only"},
+  day16:{eyebrow:"🏫 RK Mutt · Unité 2 – Leçon 5", title:"Day 16 — Aller & Venir", tagline:"Conjugation · Tu ou Vous · Prépositions À & De · Où? · D'où? · Conversations · Vocabulaire"},
+  day17:{eyebrow:"🏫 RK Mutt · Unité 2 – Leçon 6", title:"Day 17 — Les adjectifs interrogatifs", tagline:"Quel · Quelle · Quels · Quelles · Vocabulaire · Conversations · Workbook"},
   pdflib:{eyebrow:"🏫 RK Mutt · Bibliothèque PDF", title:"📚 French Junior Learning PDFs", tagline:"Download or view your class books, workbook & transcripts"},
   workbook:{eyebrow:"🏫 RK Mutt · Cahier d'exercices", title:"📓 Workbook Practice", tagline:"Vocabulary · Numbers · Verbs · Colours · Conversation · Articles Contractés"},
   progress:{eyebrow:"🏫 RK Mutt · Ma Progression", title:"📊 Progress Tracker", tagline:"Track your completion across all 15 days · Quiz scores · Homework · Vocabulary"},
@@ -4633,6 +5223,8 @@ const dayNavLabels={
   day14:"📚 Day 14 — Dire & Faire",
   day15:"📚 Day 15 — Articles Contractés",
   workbook:"📓 Workbook — Practice Exercises",
+  day16:"📅 Day 16 — Aller · Venir · Tu ou Vous · Prépositions",
+  day17:"📅 Day 17 — Quel/Quelle · Adjectifs interrogatifs · Leçon 6",
   pdflib:"📚 French Junior Learning PDFs",
   about:"👨‍🎓 About This Website",
   progress:"📊 Progress — My Course Journey",
@@ -4688,7 +5280,7 @@ function switchDay(day){
   const labelEl=document.getElementById("day-nav-label");
   if(labelEl) labelEl.textContent=dayNavLabels[day]||("📚 "+day);
   // Show correct content
-  const allDays=["day1","day2","day3","day4","day5","day6","day7","day8","day9","day10","day11","day12","day13","day14","day15","workbook","pdflib","about","progress","reviewAll","proLab"];
+  const allDays=["day1","day2","day3","day4","day5","day6","day7","day8","day9","day10","day11","day12","day13","day14","day15","day16","day17","workbook","pdflib","about","progress","reviewAll","proLab"];
   allDays.forEach(d=>{
     const el=document.getElementById(d+"-content");
     if(el) el.classList.toggle("active",d===day);
@@ -4710,6 +5302,8 @@ function switchDay(day){
   if(day==="day15" && !day15Rendered) renderDay15();
   if(day==="workbook" && !workbookRendered) renderWorkbook();
   if(day==="pdflib") renderPdfLib();
+  if(day==="day16") switchDayN("d16","conj");
+  if(day==="day17") switchDayN("d17","quel");
   if(day==="about") renderAbout();
   if(day==="progress") renderProgressPage();
   if(day==="reviewAll" && !reviewAllRendered) initReviewAll();
@@ -6989,6 +7583,45 @@ function renderDay12(){
 }
 
 /* ──── GENERIC QUIZ ENGINE (Days 7-12) ──── */
+
+/* ── Day 16 Quiz Data ── */
+const day16QuizData=[
+  {q:"How do you say 'I am going to the cinema'?", opts:["Je viens au cinéma","Je vais au cinéma","Tu vas au cinéma","Je vais du cinéma"], ans:1, pron:"Zhuh vay oh see-nay-ma"},
+  {q:"Which form of ALLER is used with NOUS?", opts:["allons","allez","vont","vais"], ans:0, pron:"ah-lon"},
+  {q:"Tu viens d'où ? — What does D'où mean?", opts:["Where?","From where?","With where?","To where?"], ans:1, pron:"doo"},
+  {q:"Je vais __ cinéma. (au/à la/à l'/aux)", opts:["à la","à l'","au","aux"], ans:2, pron:"oh"},
+  {q:"Which pronoun is used with VOUS for ALLER?", opts:["vais","vas","allez","vont"], ans:2, pron:"ah-lay"},
+  {q:"Tu or Vous — with a teacher?", opts:["Tu","Vous","Both","Neither"], ans:1, pron:"voo"},
+  {q:"Je viens __ bibliothèque. (from the library)", opts:["à la","de la","du","au"], ans:1, pron:"duh la"},
+  {q:"Bonne chance ! means?", opts:["Good morning!","Good luck!","Stay strong!","Goodbye!"], ans:1, pron:"bon shans"},
+  {q:"Which form of VENIR is used with ILS?", opts:["viennent","venons","venez","vient"], ans:0, pron:"vee-en"},
+  {q:"Tu or Vous — with a friend?", opts:["Tu","Vous","Both","Neither"], ans:0, pron:"tew"},
+  {q:"Je viens __ cinéma. (from the cinema — masculine)", opts:["de la","du","de l'","des"], ans:1, pron:"du see-nay-ma"},
+  {q:"Bon courage ! is used when someone is...?", opts:["Taking an exam","Working hard or facing difficulty","Eating lunch","Going to cinema"], ans:1, pron:"bon koo-raazh"},
+  {q:"Aujourd'hui means?", opts:["Tomorrow","Yesterday","Today","Now"], ans:2, pron:"oh-zhoor-dwee"},
+  {q:"ALLER pairs with which question word?", opts:["D'où ?","Qui ?","Où ?","Comment ?"], ans:2, pron:"oo"},
+  {q:"Demain means?", opts:["Today","Yesterday","Tomorrow","Always"], ans:2, pron:"duh-man"},
+];
+
+/* ── Day 17 Quiz Data ── */
+const day17QuizData=[
+  {q:"Quelle couleur ? — Why QUELLE and not QUEL?", opts:["couleur is masculine","couleur is feminine","couleur is plural","Random rule"], ans:1, pron:"kell"},
+  {q:"Quels livres ? — Why QUELS?", opts:["livres is feminine plural","livres is masculine singular","livres is masculine plural","livres is feminine singular"], ans:2, pron:"kel"},
+  {q:"Quel jour ? — Quel is pronounced?", opts:["Kay","Kel","Kell","Kuh"], ans:1, pron:"kel"},
+  {q:"Which form before a feminine plural noun?", opts:["Quel","Quelle","Quels","Quelles"], ans:3, pron:"kell"},
+  {q:"Quelles fleurs — fleurs is?", opts:["Masculine singular","Masculine plural","Feminine singular","Feminine plural"], ans:3, pron:"kell flur"},
+  {q:"Pour quel cours ? means?", opts:["For which course?","At what time?","In which building?","Which day?"], ans:0, pron:"poor kel koor"},
+  {q:"Un bâtiment means?", opts:["a floor","a room","a building","a course"], ans:2, pron:"un bah-tee-mon"},
+  {q:"Entrez ! means?", opts:["Goodbye!","Come in!","Please!","Thank you!"], ans:1, pron:"on-tray"},
+  {q:"What does AROBASE mean?", opts:["Hyphen -","Capital letter","The @ symbol","Small letter"], ans:2, pron:"ah-ro-baz"},
+  {q:"Dans is a MOT INVARIABLE — what does that mean?", opts:["It changes with gender","It never changes form","It changes with plural","It changes every time"], ans:1, pron:"don"},
+  {q:"L'informatique means?", opts:["information","computer science","internet","library"], ans:1, pron:"lan-for-ma-teek"},
+  {q:"Épeler means?", opts:["to enter","to begin","to spell","to search"], ans:2, pron:"ay-pay-lay"},
+  {q:"Premier / Première means?", opts:["last","next","first","second"], ans:2, pron:"pruh-mee-ay"},
+  {q:"Quel âge avez-vous ? means?", opts:["Where do you live?","What is your name?","What is your age?","What day is it?"], ans:2, pron:"kel aazh ah-vay voo"},
+  {q:"Which form before a masculine singular noun?", opts:["Quel","Quelle","Quels","Quelles"], ans:0, pron:"kel"},
+];
+
 const dayQuizDataMap={
   d7:day7QuizData, d8:day8QuizData,
   d9:day9QuizData, d10:day10QuizData,
